@@ -1,1 +1,100 @@
+body,
+html,
+.main {
+	width: 100%;
+	margin: 0px;
+}
 
+.animation {
+	position: relative;
+	background-color: #ffffff;
+	text-align: center;
+	background-image: url("assets/img/zebra-cross-fashion-week.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+}
+
+.model {
+	position: relative;
+	height: 135px;
+	margin-top: 65px;
+	z-index: 20px;
+}
+
+.text-anim {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	width: 50%;
+	color: #2c2f31;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+@media(max-width: 1000px) {
+	.animation {
+		position: relative;
+		background-color: #ffffff;
+		text-align: center;
+		background-image: url("assets/img/zebra-cross-fashion-week.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 160px;
+	}
+
+	.model {
+		position: relative;
+		height: 110px;
+		margin-top: 50px;
+		z-index: 20px;
+	}
+
+	.text-anim {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		width: 50%;
+		color: #c96725;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+
+@media(max-width: 670px) {
+	.animation {
+		position: relative;
+		background-color: #ffffff;
+		text-align: center;
+		background-image: url("assets/img/zebra-cross-fashion-week.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 120px;
+	}
+
+	.model {
+		position: relative;
+		height: 78px;
+		margin-top: 40px;
+		z-index: 20px;
+	}
+
+	.text-anim {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		width: 50%;
+		color: #595fa8;
+		font-size: 14px;
+		font-weight: bold;
+	}
+}
