@@ -14,7 +14,7 @@ header {
 }
 .btn {
 	float:right;
-	display:inline-block;
+	display:block;
 	color:#ffffff;
 	padding:22px 25px;
 	background-color:#154664;
