@@ -1,4 +1,4 @@
-/* ------------------ Header --------------------- */
+/*  Header  */
 header {
 	background-color:#06283D;
 	width:100%;
@@ -34,7 +34,7 @@ header {
 .btn home {
 	margin-left:30px;
 }
-/* ------------------ Main --------------------- */
+/*  Main  */
 body,
 html,
 .main {
@@ -75,7 +75,7 @@ html,
 	font-weight: bold;
 }
 
-/* ------------------ Footer --------------------- */
+/*  Footer  */
 footer {
 	background-color:#06283D;
 	width:100%;
@@ -91,7 +91,7 @@ footer {
 .flogo {
 	padding-right:30px;
 }
-/* ------------------ Footer --------------------- */
+/*  Footer  */
 @media(max-width: 1000px) {
 	.animation {
 		position: relative;
