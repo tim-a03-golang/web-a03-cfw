@@ -1,8 +1,6 @@
 body {
 	background-color: #DFF6FF;
 }
-
-
 /*  Header  */
 header {
 	background-color:#06283D;
@@ -48,7 +46,6 @@ html,
 	margin: 0px;
 	scroll-behavior: smooth;
 }
-
 .animation {
 	position: relative;
 	background-color: #ffffff;
@@ -78,6 +75,10 @@ html,
 	color: #2c2f31;
 	font-size: 28px;
 	font-weight: bold;
+}
+.main p{
+	font-size: 15px;
+	text-align: center;
 }
 
 /*  Footer  */
@@ -127,6 +128,10 @@ footer {
 		font-size: 20px;
 		font-weight: bold;
 	}
+	.main p{
+		font-size: 15px;
+		text-align: center;
+	}
 }
 
 @media(max-width: 670px) {
@@ -159,8 +164,11 @@ footer {
 		font-size: 14px;
 		font-weight: bold;
 	}
+	.main p{
+		font-size: 10px;
+		text-align: center;
+	}
 }
-
 .contact-us {
 	padding-top: 1000px;
 	position: relative;
