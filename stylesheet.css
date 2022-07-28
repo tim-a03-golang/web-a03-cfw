@@ -4,7 +4,6 @@ html,
 	width: 100%;
 	margin: 0px;
 }
-
 .animation {
 	position: relative;
 	background-color: #ffffff;
@@ -33,6 +32,10 @@ html,
 	color: #2c2f31;
 	font-size: 28px;
 	font-weight: bold;
+}
+
+.main p{
+	font-size: 15px;
 }
 
 @media(max-width: 1000px) {
@@ -64,6 +67,9 @@ html,
 		color: #c96725;
 		font-size: 20px;
 		font-weight: bold;
+	}
+	.main p{
+		font-size: 15px;
 	}
 }
 
@@ -97,4 +103,30 @@ html,
 		font-size: 14px;
 		font-weight: bold;
 	}
+	.main p{
+		font-size: 10px;
+	}
 }
+
+/* .top-wrapper {
+	padding: 100px 0 100px 0;
+	background-image: url("assets/img/zebra-cross-fashion-week.svg");
+	background-size: cover;
+	color: white;
+	vertical-align: top;
+	text-align: left;
+  }
+  
+  .top-wrapper h1 {
+	opacity: 2;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: black;
+	text-align: left;
+  }
+  
+  .top-wrapper p {
+	opacity: 2;
+	color:black
+  }
+   */
