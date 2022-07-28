@@ -81,6 +81,51 @@ main {
 	padding-top: 100px;
 }
 
+/* About */
+.about {
+	text-align:center;
+}
+.about h1 {
+	width:100%;
+	height:45px;
+	margin-top:115px;
+	margin-bottom:75px;
+	font-size: 38px;
+	line-height: 22px;
+}
+.list-foto {
+	float:left;
+	width:33%;
+}
+.profile-cfw {
+	position:relative;
+}
+
+.profile-cfw h2 {
+	position:absolute;
+	top:350px;
+	width:100%;
+	color:white;
+}
+.profile-cfw p {
+	position:absolute;
+	top:430px;
+	left:160px;
+	width:50%;
+	color:white;
+	padding-right:100px;
+	font-size:18px;
+}
+.main-topic {
+	padding:0px 140px;
+	margin-top:800px;
+}
+.main-topic h2 {
+	font-size:35px;
+}
+.main-topic p {
+	font-size:20px;
+}
 /*  Footer  */
 footer {
 	background-color:#06283D;
@@ -170,14 +215,16 @@ footer {
 	}
 }
 .contact-us {
-	padding-top: 100px;
+	padding: 100px 0px;
 	position: relative;
 	align-content: center;
+	margin-bottom:100px;
 }
 
 .contact-us h1{
 	text-align: center;
 	color: #8D8D8D;
+	font-size:38px;
 }
 
 .profile-picture .btn:hover {
