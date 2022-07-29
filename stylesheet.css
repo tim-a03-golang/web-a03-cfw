@@ -1,24 +1,66 @@
-body,
-html,
-.main {
-	width: 100%;
+body {
+	background-color: #DFF6FF;
+}
+/*  Header  */
+header {
+	background-color:#06283D;
+	width:100%;
+	height:70px;
+	position:fixed;
+	top:0;
+	z-index:20;
 	margin: 0px;
 }
+.logoa03 {
+	float:left;
+	position:absolute;
+	left:30px;
+}
+.btn {
+	float:right;
+	display:block;
+	color:#ffffff;
+	padding:22px 25px;
+	background-color:#154664;
+	font-family: 'Open Sans';
+	font-size: 25px;
+	line-height: 25px;
+	align-items: center;
+	text-decoration:none;
+	margin-right:30px;
+}
 
+.btn:hover {
+	background-color:#1d5a80;
+	transition:0.5s;
+}
+
+.btn home {
+	margin-left:30px;
+}
+/*  Main  */
+html,
+main {
+	width: 100%;
+	height: 1000px;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
 .animation {
 	position: relative;
-	background-color: #ffffff;
+	background-color: #DFF6FF;
 	text-align: center;
 	background-image: url("assets/img/zebra-cross-fashion-week.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 200px;
+	height: 400px;
+	top:96px; /* Agar berada dibawah header */
 }
 
 .model {
 	position: relative;
-	height: 135px;
-	margin-top: 65px;
+	height: 265px;
+		margin-top: 130px;
 	z-index: 20px;
 }
 
@@ -31,25 +73,93 @@ html,
 	text-align: center;
 	width: 50%;
 	color: #2c2f31;
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: bold;
 }
+.main p{
+	font-size: 15px;
+	margin: 0px 50px;
+	text-align: center;
+	padding-top: 100px;
+}
 
+/* About */
+.about {
+	text-align:center;
+}
+.about h1 {
+	width:100%;
+	height:45px;
+	margin-top:115px;
+	margin-bottom:75px;
+	font-size: 38px;
+	line-height: 22px;
+}
+.list-foto {
+	float:left;
+	width:33%;
+}
+.profile-cfw {
+	position:relative;
+}
+
+.profile-cfw h2 {
+	position:absolute;
+	top:350px;
+	width:100%;
+	color:white;
+}
+.profile-cfw p {
+	position:absolute;
+	top:430px;
+	left:160px;
+	width:50%;
+	color:white;
+	padding-right:100px;
+	font-size:18px;
+}
+.main-topic {
+	padding:0px 140px;
+	margin-top:800px;
+}
+.main-topic h2 {
+	font-size:35px;
+}
+.main-topic p {
+	font-size:20px;
+}
+/*  Footer  */
+footer {
+	background-color:#06283D;
+	width:100%;
+	height:125px;
+	bottom:0;
+}
+
+.footer-logo {
+	text-align:center;
+	padding-top:25px;
+}
+
+.flogo {
+	padding-right:30px;
+}
+/*  Footer  */
 @media(max-width: 1000px) {
 	.animation {
 		position: relative;
-		background-color: #ffffff;
+		background-color: #DFF6FF;
 		text-align: center;
 		background-image: url("assets/img/zebra-cross-fashion-week.svg");
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 160px;
+		height: 300px;
 	}
 
 	.model {
 		position: relative;
-		height: 110px;
-		margin-top: 50px;
+		height: 200px;
+			margin-top: 100px;
 		z-index: 20px;
 	}
 
@@ -62,26 +172,30 @@ html,
 		text-align: center;
 		width: 50%;
 		color: #c96725;
-		font-size: 20px;
+		font-size: 30px;
 		font-weight: bold;
+	}
+	.main p{
+		font-size: 15px;
+		text-align: center;
 	}
 }
 
 @media(max-width: 670px) {
 	.animation {
 		position: relative;
-		background-color: #ffffff;
+		background-color: #DFF6FF;
 		text-align: center;
 		background-image: url("assets/img/zebra-cross-fashion-week.svg");
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 120px;
+		height: 200px;
 	}
 
 	.model {
 		position: relative;
-		height: 78px;
-		margin-top: 40px;
+		height: 130px;
+			margin-top: 65px;
 		z-index: 20px;
 	}
 
@@ -94,7 +208,108 @@ html,
 		text-align: center;
 		width: 50%;
 		color: #595fa8;
-		font-size: 14px;
+		font-size: 22px;
 		font-weight: bold;
 	}
+	.main p{
+		font-size: 10px;
+		text-align: center;
+	}
+}
+.contact-us {
+	padding: 100px 0px;
+	position: relative;
+	align-content: center;
+	margin-bottom:100px;
+}
+
+.contact-us h1{
+	text-align: center;
+	color: #8D8D8D;
+	font-size:38px;
+}
+
+.profile-picture .btn:hover {
+	opacity: 1;
+}
+
+.profile-picture .btn:link {
+	text-decoration: none
+}
+
+.profile-picture .btn:active {
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+}
+
+.profile-picture .github {
+	padding: 10px 30px;
+	background-color: #4a4e4c;
+	cursor: pointer;
+	box-shadow: 0px 5px #0c0e0c;
+	color: white;
+	border-radius: 15%;
+}
+
+/* left */
+.contact-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 100px;
+}
+
+.contact-left .name {
+	margin-left: 20px;
+	margin-top: -5px;
+}
+
+.contact-left .profile-picture {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-left .profile-picture img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.contact-left .profile-picture a {
+	margin-top: 20px;
+}
+
+/* right */
+.contact-right {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 100px;
+}
+
+.contact-right .name {
+	margin-right: 20px;
+	margin-top: -5px;
+}
+
+.contact-right .profile-picture {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-right .profile-picture img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.contact-right .profile-picture a {
+	margin-top: 20px;
 }
