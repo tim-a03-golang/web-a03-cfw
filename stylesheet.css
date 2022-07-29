@@ -9,6 +9,7 @@ header {
 	position:fixed;
 	top:0;
 	z-index:20;
+	margin: 0px;
 }
 .logoa03 {
 	float:left;
@@ -52,14 +53,14 @@ main {
 	background-image: url("assets/img/zebra-cross-fashion-week.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 200px;
+	height: 400px;
 	top:96px; /* Agar berada dibawah header */
 }
 
 .model {
 	position: relative;
-	height: 135px;
-	margin-top: 65px;
+	height: 265px;
+		margin-top: 130px;
 	z-index: 20px;
 }
 
@@ -72,7 +73,7 @@ main {
 	text-align: center;
 	width: 50%;
 	color: #2c2f31;
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: bold;
 }
 .main p{
@@ -146,18 +147,18 @@ footer {
 @media(max-width: 1000px) {
 	.animation {
 		position: relative;
-		background-color: #ffffff;
+		background-color: #DFF6FF;
 		text-align: center;
 		background-image: url("assets/img/zebra-cross-fashion-week.svg");
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 160px;
+		height: 300px;
 	}
 
 	.model {
 		position: relative;
-		height: 110px;
-		margin-top: 50px;
+		height: 200px;
+			margin-top: 100px;
 		z-index: 20px;
 	}
 
@@ -170,7 +171,7 @@ footer {
 		text-align: center;
 		width: 50%;
 		color: #c96725;
-		font-size: 20px;
+		font-size: 30px;
 		font-weight: bold;
 	}
 	.main p{
@@ -182,18 +183,18 @@ footer {
 @media(max-width: 670px) {
 	.animation {
 		position: relative;
-		background-color: #ffffff;
+		background-color: #DFF6FF;
 		text-align: center;
 		background-image: url("assets/img/zebra-cross-fashion-week.svg");
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 120px;
+		height: 200px;
 	}
 
 	.model {
 		position: relative;
-		height: 78px;
-		margin-top: 40px;
+		height: 130px;
+			margin-top: 65px;
 		z-index: 20px;
 	}
 
@@ -206,7 +207,7 @@ footer {
 		text-align: center;
 		width: 50%;
 		color: #595fa8;
-		font-size: 14px;
+		font-size: 22px;
 		font-weight: bold;
 	}
 	.main p{
