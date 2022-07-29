@@ -78,6 +78,7 @@ main {
 }
 .main p{
 	font-size: 15px;
+	margin: 0px 50px;
 	text-align: center;
 	padding-top: 100px;
 }
